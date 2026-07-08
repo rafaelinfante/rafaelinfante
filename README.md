@@ -1,6 +1,6 @@
 # Hi, I'm Rafael Infante 👋
 
-### Senior Fullstack Java Engineer & Team Lead · Payments · Platform Engineering · Full-Stack Delivery
+### Senior Full-Stack Java Engineer & Team Lead · Payments · Platform Engineering · Legacy Modernisation
 
 20+ years building and modernizing secure, cloud-deployed production platforms. Payments is my deepest specialty — but my range is broad: end-to-end full-stack delivery (Java/Spring + Angular), mobility & smart-city platforms, the CI/CD and engineering toolchain I build from scratch, legacy-to-modern migrations, and leading distributed teams.
 
