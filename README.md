@@ -5,7 +5,7 @@
 20+ years building and modernizing secure, cloud-deployed production platforms. Payments is my deepest specialty — but my range is broad: end-to-end full-stack delivery (Java/Spring + Angular), mobility & smart-city platforms, the CI/CD and engineering toolchain I build from scratch, legacy-to-modern migrations, and mentoring distributed teams.
 
 🌍 Remote from São Paulo, Brazil (UTC−3) &nbsp;·&nbsp; 🗣️ Fluent English (C1) &nbsp;·&nbsp; 💼 Open to remote contract, full-time, or fractional roles
-🎓 Oracle Certified Professional, Java Programmer
+🎓 AWS Certified Developer – Associate (2026) &nbsp;·&nbsp; Confluent Certified Developer for Apache Kafka (2026) &nbsp;·&nbsp; Oracle Certified Professional, Java
 
 🔗 **[rafaelinfante.net](https://rafaelinfante.net)** &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/infanterafael) &nbsp;·&nbsp; matos.rafael@gmail.com
 
@@ -17,17 +17,19 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE5LjM1IDEwLjA0QTcuNDkgNy40OSAwIDAgMCAxMiA0QzkuMTEgNCA2LjYgNS42NCA1LjM1IDguMDRBNS45OTQgNS45OTQgMCAwIDAgMCAxNGMwIDMuMzEgMi42OSA2IDYgNmgxM2MyLjc2IDAgNS0yLjI0IDUtNSAwLTIuNjQtMi4wNS00Ljc4LTQuNjUtNC45NnoiLz48L3N2Zz4=)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
 
-- **Backend:** Java (8/11/17) · Spring Boot (3.x) · Spring MVC · Spring Security · Spring Data JPA · Hibernate · Flyway · Spring Integration (MQTT)
+- **Backend:** Java (8/11/17) · Spring Boot (3.x) · Spring MVC · Spring Security · Spring Data JPA · Hibernate · Flyway · Spring Integration (MQTT) · Apache Kafka (Confluent Certified Developer, 2026)
 - **Frontend:** Angular (17–20) · TypeScript · RxJS · JavaScript · HTML5 · CSS3
 - **Payments & Security:** 13 gateways (Stripe, PayPal, Worldpay, ACI, Authipay, Checkout.com, Windcave, …) · gateway-hosted payment pages (reduced PCI scope) · idempotency & duplicate-payment prevention · signed webhooks · OAuth2 / JWT / OIDC
-- **Cloud & DevOps:** Docker · Jenkins (CI/CD) · Maven · SonarQube · Wazuh · Uptime Kuma · AI-assisted development
-- **Portfolio / currently learning:** Kafka · RabbitMQ · Kubernetes · Spring AI — see the featured projects below
+- **Cloud & DevOps:** AWS (Certified Developer – Associate, 2026) · Docker · Jenkins (CI/CD) · Maven · SonarQube · Wazuh · Uptime Kuma · AI-assisted development
+- **Portfolio / currently learning:** RabbitMQ · Kubernetes · Spring AI — see the featured projects below
 
 ---
 
@@ -42,14 +44,14 @@
 
 ### ⭐ Featured open-source projects
 
-Each repo backs a claim on my CV — documented, tested, CI-green, and runnable with one command. *(This is where I explore beyond the day job: Kafka, Kubernetes, AI engineering.)*
+Each repo backs a claim on my CV — documented, tested, CI-green, and runnable with one command. *(This is where I go beyond the day job: Kafka, Kubernetes, AI engineering.)*
 
 | Repo | What it shows |
 |---|---|
 | [`payment-gateway-service`](https://github.com/rafaelinfante/payment-gateway-service) | **Payments & PCI** — one REST API over Stripe, Adyen & PayPal + a mock legacy gateway; three PCI flows (`HOSTED` / `TOKEN` / `CARD`), signed webhooks, idempotency, Testcontainers. `docker compose up` → running API, no keys needed |
 | [`subscription-manager`](https://github.com/rafaelinfante/subscription-manager) | **Full-stack delivery** — subscription billing with Spring Boot 3 + Angular, social login, RS256 JWT with rotating refresh tokens, automated dunning engine |
 | [`legacy-to-modern-refactor`](https://github.com/rafaelinfante/legacy-to-modern-refactor) | **Legacy modernisation** — the same app built twice: AngularJS 1.8 + Spring MVC (javax) vs Angular 20 + Spring Boot 3.5 (jakarta), with a shared contract suite proving parity + a transactional outbox |
-| [`event-streaming-kafka`](https://github.com/rafaelinfante/event-streaming-kafka) | **Event streaming** — Kafka Streams: windowed revenue, KStream–KTable joins, infrastructure-vs-business error handling |
+| [`event-streaming-kafka`](https://github.com/rafaelinfante/event-streaming-kafka) | **Event streaming** — Kafka Streams: windowed revenue, KStream–KTable joins, infrastructure-vs-business error handling. The project I built before sitting the Confluent Certified Developer exam |
 | [`kubernetes-deploy`](https://github.com/rafaelinfante/kubernetes-deploy) | **Cloud-native ops** — production-shaped K8s: HPA, zero-downtime rollouts, probes, NetworkPolicy + PDB, kustomize, Argo CD GitOps; runs on kind |
 | [`model-mux`](https://github.com/rafaelinfante/model-mux) | **AI engineering** — Spring AI gateway with cost/compare routing, Resilience4j as the single retry authority, PR summarizer |
 | [`fleet-telemetry-platform`](https://github.com/rafaelinfante/fleet-telemetry-platform) | **Real-time & MQTT** — MQTT → RabbitMQ (quorum queues, backpressure) → WebSocket/STOMP live map; Angular 20 + Leaflet dashboard |
